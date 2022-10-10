@@ -1,0 +1,257 @@
+:root {--logo-text: #000000;
+    --basic-text-color: #212121;
+    --additional-text-color: #757575;
+    --auxiliary-text-color:#FFFFFF;
+    --hover-color: #2196F3;
+    --backgroud-color: #F5F5F5;
+    --comand-fone: #F5F4FA;
+    --booton-activ: #188CE8;
+}
+
+body{
+    color: var(--additional-text-color);
+    background-color: var(--auxiliary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+         /* стиль логотипу */
+
+.logo{
+    color: var(--logo-text);
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-text{
+    color: var(--hover-color);
+}
+
+        /* стиль навігації */
+
+.hat{
+    background-color: var(--auxiliary-text-color);
+}
+
+.hat-list{
+    list-style: none;
+}
+
+.hat .link{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link{
+    color: var(--basic-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--hover-color);
+}
+
+.auth-nav{
+    list-style: none;
+}
+
+.auth-nav .link{
+    color: var(--additional-text-color);
+}
+
+.auth-nav .link:hover, 
+.auth-nav .link:focus {
+    color: var(--hover-color);
+}
+
+    /* стиль блоку героя */
+
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: var(--auxiliary-text-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+    /* стилізаця кнопки блоку героя */
+    
+.button{
+    cursor: pointer;
+
+    color: var(--auxiliary-text-color);
+    background-color: var(--hover-color);
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus{
+    background-color: var(--booton-activ);
+}
+
+    /* стиль заголовків секцій */
+
+.section-title{
+    color: var(--basic-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+        /* стиль секції особливості */
+
+.features-title{
+    color: var(--basic-text-color);
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-list{
+    list-style: none;
+}
+
+    /* стиль секції чим ми займаємося */
+
+.work-list{
+    list-style: none;
+}
+
+    /* стиль секції команда */
+
+.comand{
+    background-color: var(--comand-fone);
+}
+
+.comand-name{
+    color: var(--basic-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.comand-list{
+    list-style: none;
+}
+
+.comand-list p{
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* стиль футера */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer>.link{
+       
+    color: var(--auxiliary-text-color);
+  
+    font-family: 'Raleway';    
+    font-weight: 700;   
+    font-size: 26px;      
+    line-height: 1.19;   
+    text-decoration: none;
+    }
+
+.footer .logo{
+    color: var(--hover-color);
+}
+
+    /* стилізація адреса футера */
+
+.address{
+    font-style: normal;
+}
+
+.address-list{
+    list-style: none;
+}
+
+.address-list .link{
+    color:rgba(255, 255, 255, 0.6);
+    
+    text-decoration: none;
+}
+
+.address-list .link:hover, 
+.address-list .link:focus{
+    color: var(--hover-color);
+}
+
+.address .text{
+    color: var(--auxiliary-text-color);
+}
+
+        /* портфолио */
+        /*   фильтр  */
+
+.filter-button{
+    cursor: pointer;
+
+    color: var(--basic-text-color);
+    background-color: var(--comand-fone);
+
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.filter-button:hover, 
+.filter-button:focus{
+    color: var(--auxiliary-text-color);
+    background-color: var(--hover-color);
+}
+
+.filter-list{
+    list-style: none;
+}
+
+/* стилізація проєктів */
+
+.project-name{
+    color: var(--basic-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-list{
+    list-style: none;
+}
+
+.project-text{
+    color: var(--additional-text-color);
+
+    font-size: 16px;
+    line-height:1.88
+}
