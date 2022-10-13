@@ -16,10 +16,21 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
+/* формат мейна */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
          /* стиль логотипу */
 
 .logo{
+    display: block;
+    padding: 28px 0 29px;
+    margin-right: 93px;
     color: var(--logo-text);
 
     font-family: 'Raleway';
@@ -36,11 +47,26 @@ body{
         /* стиль навігації */
 
 .hat{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
     background-color: var(--auxiliary-text-color);
 }
 
 .hat-list{
+    display: flex;
+    padding: 0;
+    margin: 0;
     list-style: none;
+}
+
+.hat-list>.item{
+    display: block;
+    padding: 32px 0;
+}
+
+.hat-list .item:not(:last-child){
+    margin-right: 50px;
 }
 
 .hat .link{
@@ -48,6 +74,11 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
 }
 
 .site-nav .link{
@@ -60,7 +91,19 @@ body{
 }
 
 .auth-nav{
+    display: flex;
+    padding: 0;
+    margin: 0;
     list-style: none;
+}
+
+.auth-nav>.item{
+    display: block;
+    padding: 32px 0;
+}
+
+.auth-nav .item:not(:first-child){
+    margin-left: 50px;
 }
 
 .auth-nav .link{
@@ -75,6 +118,8 @@ body{
     /* стиль блоку героя */
 
 .hero{
+    width: 1600px;
+    height: 600px;
     background-color: #2F303A;
 }
 
