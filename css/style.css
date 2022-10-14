@@ -29,7 +29,7 @@ body{
 
 .logo{
     display: block;
-    padding: 28px 0 29px;
+    padding: 24px 0 25px;
     margin-right: 93px;
     color: var(--logo-text);
 
@@ -62,7 +62,7 @@ body{
 
 .hat-list>.item{
     display: block;
-    padding: 32px 0;
+   
 }
 
 .hat-list .item:not(:last-child){
@@ -82,6 +82,8 @@ body{
 }
 
 .site-nav .link{
+    display: block;
+    padding: 32px 0;
     color: var(--basic-text-color);
 }
 
@@ -97,16 +99,12 @@ body{
     list-style: none;
 }
 
-.auth-nav>.item{
-    display: block;
-    padding: 32px 0;
-}
-
 .auth-nav .item:not(:first-child){
     margin-left: 50px;
 }
 
 .auth-nav .link{
+    padding: 32px 0;
     color: var(--additional-text-color);
 }
 
@@ -211,7 +209,21 @@ body{
     list-style: none;
 }
 
+.features-text{
+    margin: 0;
+}
+
+.features .item{
+    min-width: 270px;
+}
+
+.features .item:not(:first-child){
+    margin-left: 30px;
+}
+
+
     /* стиль секції чим ми займаємося */
+
 
 .work-list{
     display: flex;
@@ -228,13 +240,17 @@ body{
     display: block;
 }
 
+
     /* стиль секції команда */
 
+    
 .comand{
     background-color: var(--comand-fone);
 }
 
 .comand-name{
+    margin-bottom: 10px;
+
     color: var(--basic-text-color);
 
     font-weight: 500;
@@ -243,7 +259,23 @@ body{
 }
 
 .comand-list{
+    display: flex;
+    padding: 0;
+    margin: 0;
     list-style: none;
+}
+
+.comand-list .item{
+text-align: center;
+}
+
+.comand-list img{
+display: inline-block;
+margin-bottom: 30px;
+}
+
+.comand-list .item:not(:first-child){
+    margin-left: 30px;
 }
 
 .comand-list p{
