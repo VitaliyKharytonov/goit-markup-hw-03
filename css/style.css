@@ -28,9 +28,6 @@ body{
          /* стиль логотипу */
 
 .logo{
-    display: block;
-    padding: 24px 0 25px;
-    margin-right: 93px;
     color: var(--logo-text);
 
     font-family: 'Raleway';
@@ -46,11 +43,17 @@ body{
 
         /* стиль навігації */
 
+
 .hat{
     display: flex;
     justify-content:space-between;
     align-items:center;
     background-color: var(--auxiliary-text-color);
+}
+
+.hat .logo{
+    padding: 24px 0 25px;
+     margin-right: 93px;
 }
 
 .hat-list{
@@ -270,7 +273,6 @@ text-align: center;
 }
 
 .comand-list img{
-display: inline-block;
 margin-bottom: 30px;
 }
 
@@ -283,13 +285,17 @@ margin-bottom: 30px;
     line-height: 1.19;
 }
 
-/* стиль футера */
+        /* стиль футера */
 
 .footer{
+   
     background-color: #2F303A;
 }
 
-.footer>.link{
+.container>.link{
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
        
     color: var(--auxiliary-text-color);
   
@@ -311,7 +317,15 @@ margin-bottom: 30px;
 }
 
 .address-list{
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 60px;
+    padding: 0;
     list-style: none;
+}
+
+.address-list .item:not(:last-child){
+margin-bottom: 9px;
 }
 
 .address-list .link{
@@ -326,6 +340,7 @@ margin-bottom: 30px;
 }
 
 .address .text{
+    margin: 0;
     color: var(--auxiliary-text-color);
 }
 

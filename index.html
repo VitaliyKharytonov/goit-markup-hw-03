@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,23 +22,27 @@
     <header class="hat container">
       <div>
         <nav class="site-nav">
-        <a class="logo" href="/"><span class="logo-text">Web</span>Studio</a>
-        <ul class="hat-list">
-          <li class="item"><a class="link" href="./index.html">Студія</a></li>
-          <li class="item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
-          <li class="item"><a class="link" href="">Контакти</a></li>
-        </ul>
-      </nav>
-    </div>
+          <a class="logo" href="/"><span class="logo-text">Web</span>Studio</a>
+          <ul class="hat-list">
+            <li class="item"><a class="link" href="./index.html">Студія</a></li>
+            <li class="item">
+              <a class="link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="item"><a class="link" href="">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
       <div>
         <ul class="auth-nav">
-        <li class="item">
-          <a class="link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul> 
+          <li class="item">
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -103,11 +111,11 @@
             />
           </li>
           <li class="item">
-              <img
-                src="./images/design.jpg"
-                alt="виконання дизайнерських рішень"
-                width="370"
-              />
+            <img
+              src="./images/design.jpg"
+              alt="виконання дизайнерських рішень"
+              width="370"
+            />
           </li>
         </ul>
       </section>
@@ -143,23 +151,27 @@
 
     <!--підвал-->
 
-    <footer class="footer container">
-      <a class="link" href="./index.html"
-        ><span class="logo">Web</span>Studio</a
-      >
-      <address class="address">
-        <ul class="address-list">
-          <li><p class="text">м. Київ, пр-т Лесі Українки, 26</p></li>
-          <li>
-            <a class="link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a class="link" href="./index.html">
+          <span class="logo">Web</span>Studio
+        </a>
+        <address class="address">
+          <ul class="address-list">
+            <li class="item">
+              <p class="text">м. Київ, пр-т Лесі Українки, 26</p>
+            </li>
+            <li class="item">
+              <a class="link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
