@@ -120,10 +120,16 @@ body{
 .hero{
     width: 1600px;
     height: 600px;
+    margin: auto;
+    text-align: center;
     background-color: #2F303A;
 }
 
 .hero-title{
+    padding-top: 197px;
+    padding-bottom: 30px;
+    margin: 0;
+
     color: var(--auxiliary-text-color);
 
     font-weight: 900;
@@ -138,6 +144,8 @@ body{
     
 .button{
     cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 32px;
 
     color: var(--auxiliary-text-color);
     background-color: var(--hover-color);
@@ -155,8 +163,22 @@ body{
 }
 
     /* стиль заголовків секцій */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 .section-title{
+    margin: 0;
+    margin-bottom: 50px;
     color: var(--basic-text-color);
 
     font-weight: 700;
@@ -165,9 +187,16 @@ body{
     text-align: center;
 }
 
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
         /* стиль секції особливості */
 
 .features-title{
+    margin: 0;
+
     color: var(--basic-text-color);
 
     font-weight: 700;
@@ -176,13 +205,27 @@ body{
 }
 
 .features-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
     /* стиль секції чим ми займаємося */
 
 .work-list{
+    display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.work-list .item:not(:first-child){
+    margin-left: 30px;
+}
+
+.work-list img{
+    display: block;
 }
 
     /* стиль секції команда */
