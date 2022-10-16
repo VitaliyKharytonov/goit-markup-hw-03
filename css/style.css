@@ -381,21 +381,6 @@ img{
   margin-right: 8px;
 }
 /* стилізація проєктів */
-.text{
-  width: 320px;
-}
-
-.text .project-name {
-  margin-bottom: 4px;
-
-  color: var(--basic-text-color);
-
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
 
 .project-list {
   display: flex;
@@ -410,7 +395,7 @@ img{
   flex-basis: calc(100% / 3 - 30px);
 }
 
-.project-list .link {
+.item .link {
   text-decoration: none;
 }
 
@@ -418,6 +403,17 @@ img{
   border: 1px solid var(--border-portfolio-color);
   border-top: transparent;
   padding: 20px 24px;
+}
+
+.project-name {
+  margin-bottom: 4px;
+
+  color: var(--basic-text-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project-text {
