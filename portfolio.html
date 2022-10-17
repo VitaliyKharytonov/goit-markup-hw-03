@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,8 +45,10 @@
     </header>
     <main>
       <!--Фільтр-->
-      <section class="project container section">
-        <ul class="filter-list">
+      <section class="project  section">
+         <div class="container">
+           <h1 class="visually-hidden">Наші проєкти</h1>
+          <ul class="filter-list ">
           <li class="item">
             <button class="filter-button" type="button">Усі</button>
           </li>
@@ -60,8 +66,7 @@
           </li>
         </ul>
         <!--Проєкти -->
-        <h1 class="visually-hidden">Наші проєкти</h1>
-        <ul class="project-list">
+          <ul class="project-list">
           <li class="item">
             <a class="link" href="">
               <img
@@ -199,6 +204,7 @@
             </a>
           </li>
         </ul>
+         </div>
       </section>
     </main>
     <!--Підвал-->
