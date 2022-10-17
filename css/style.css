@@ -200,6 +200,8 @@ img{
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+  font-size: 36px;
+  line-height: 1.16;
 }
 
 .section-title {
@@ -255,6 +257,9 @@ img{
 /* стиль секції команда */
 
 .comand {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--comand-fone-color);
 }
 
@@ -385,18 +390,21 @@ img{
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -15px;
+  grid-gap: 30px;
 
   list-style: none;
 }
 
 .project-list .item {
-  margin: 15px;
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc((100% - 2*30px)/ 3);
 }
 
 .item .link {
   text-decoration: none;
+}
+
+.image{
+  width: 100%;
 }
 
 .project-list .text {
